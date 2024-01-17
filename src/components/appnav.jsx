@@ -19,18 +19,6 @@ export default function AppNav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" style={{fontWeight: '500'}}>Home</Nav.Link>
-            {/* <NavDropdown title="Portfolio" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
-            {/* <Nav.Link href="#clients">Clients</Nav.Link> */}
             <Nav.Link href="#writing">Writing</Nav.Link>
             <Nav.Link href="#editing">Editing</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>

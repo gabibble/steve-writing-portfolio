@@ -22,6 +22,10 @@ function WritingPortfolio() {
 
     return (
       <div className="writing-portflio">
+        <h2 className="sub-heading" id="writing">
+          Writing
+        </h2>
+        <hr className="sub-heading-divider"></hr>
         {sections.map((section) => (
           <div key={section.title}>
             <h4 className="mt-4">{section.title}</h4>
