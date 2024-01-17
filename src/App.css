@@ -1,7 +1,6 @@
 .App {
   margin: 0 20px;
   color: #393d3f;
-  /* text-align: center; */
 }
 
 .navbar {
@@ -9,7 +8,6 @@
 }
 
 .container {
-  /* background-color: lavender !important; */
   max-width: 1080px !important;
 }
 
@@ -45,17 +43,11 @@
     padding: 0 0 1rem 1rem;
   }
 
-  /* Desktop and more width and less */
+  /* Desktop and more */
   @media (min-width: 993px) {
     .hero__text {
       padding-right: 5rem;
     }
-  }
-
-  /* Tablet width and less */
-  @media (max-width: 992px) {
-    /* padding: 8rem 0 2rem; */
-    /* background-color: aqua; */
   }
 
   /* Small tablet and less */
@@ -67,7 +59,6 @@
     .hero__text {
       font-size: 14px;
     }
-    /* background-color: burlywood; */
   }
 
   /* phone and less */
@@ -76,7 +67,6 @@
     .hero__image img {
       padding: 2rem 1.5rem 3rem;
     }
-    /* background-color: rgb(0, 255, 38); */
   }
 }
 
@@ -134,12 +124,6 @@
   text-decoration: none;
 }
 
-.article:hover {
-  .article-title {
-    text-decoration: underline;
-  }
-}
-
 .writing-portflio {
   .article {
     margin-bottom: 2rem;
@@ -148,11 +132,30 @@
   .article-title {
     font-size: 18px;
   }
+
+  .article:hover {
+    .article-title {
+      text-decoration: underline;
+    }
+  }
 }
 
 .editing-portflio {
   .article {
     margin-bottom: 3rem;
+
+    img {
+      transition: transform 150ms ease-in-out;
+    }
+  }
+
+  .article:hover {
+    img {
+      transform: scale(103%);
+    }
+    /* .article-title {
+      text-decoration: underline;
+    } */
   }
 }
 
@@ -162,18 +165,43 @@
   align-items: center;
   margin-bottom: 8rem;
 
-  .footer__email-copy {
-    display: inline-block;
-    margin-left: 12px;
+  .footer-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    h4 {
+      display: inline-block;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    button {
+      color: #393d3f4f;;
+      background-color: white;
+      border: 2px solid #393d3f38;
+      border-radius: 4px;
+      transition: color 100ms ease-in-out, background-color 100ms ease-in-out;
+      padding: 1px 6px;
+      margin-left: 6px;
+    }
+
+    button:hover {
+      background-color: #393d3f;
+      color: white;
+    }
+
+    button:active {
+      background-color: #222526;
+    }
   }
+
+  /* .footer__email-copy {
+    display: inline-block;
+  } */
 
   /* Button {
     background-color: #393d3f;
     color: white;
   } */
-
-  h4 {
-    display: inline-block;
-    font-weight: 300;
-  }
 }
