@@ -1,5 +1,5 @@
 .App {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   color: #393d3f;
 }
 
@@ -118,7 +118,27 @@
 
 .clients {
   margin: 0 1rem;
+  .clients__logos--mobile {
+    display: none;
+  }
+
+  @media (max-width: 575px) {
+    margin: 0;
+    .clients__logos {
+      display: none;
+    }
+    .clients__logos--mobile {
+      display: block;
+    }
+  }
 }
+
+/* .clients--mobile {
+  display: none;
+  @media (max-width: 575px) {
+    margin: 0;
+  }
+} */
 
 .article {
   display: block;

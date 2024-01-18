@@ -31,7 +31,7 @@ function Footer() {
             }}
           >
             <div className="footer__email-copy">
-              <FontAwesomeIcon icon={copied ? faCheck : faCopy} size="md" />
+              <FontAwesomeIcon icon={copied ? faCheck : faCopy} size="sm" />
             </div>
           </button>
         </div>
