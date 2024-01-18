@@ -6,3 +6,7 @@
   transform: scale(101%);
   filter: saturate(103%) contrast(105%);
 }
+
+.editing-portflio h3 {
+font-weight: 700;
+}

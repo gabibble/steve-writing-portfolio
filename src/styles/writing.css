@@ -3,6 +3,10 @@
   transition: transform 80ms ease-in-out;
 }
 
+.writing-portflio h4 {
+  font-weight: 700;
+}
+
 .writing-portflio .article-title {
   font-size: 18px;
 }
