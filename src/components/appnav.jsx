@@ -6,19 +6,12 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function AppNav() {
   return (
-    <Navbar
-      expand="sm"
-      className="bg-body-tertiary"
-      bg="light"
-      data-bs-theme="ligth"
-      fixed="top"
-    >
+    <Navbar expand="sm" className="bg-body-tertiary" bg="light" fixed="top">
       <Container>
-        {/* <Navbar.Brand href="#home">Steve Barry</Navbar.Brand> */}
+        <Navbar.Brand href="/">Steve Barry</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" style={{fontWeight: '500'}}>Home</Nav.Link>
             <Nav.Link href="#writing">Writing</Nav.Link>
             <Nav.Link href="#editing">Editing</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>

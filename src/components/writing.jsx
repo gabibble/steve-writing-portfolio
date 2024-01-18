@@ -43,7 +43,7 @@ function WritingPortfolio() {
                       imgixParams={{ ar: "7:5", fit: "crop" }}
                       style={{ width: "100%" }}
                     />
-                    <h5 className="mt-2 article-title">
+                    <h5 className="mt-2 article__title">
                       {article.title[0].text}
                     </h5>
                   </a>

@@ -1,5 +1,5 @@
 .App {
-  margin: 0 20px;
+  padding: 0 .5rem;
   color: #393d3f;
 }
 
@@ -91,6 +91,7 @@
     opacity: 70%;
   }
 }
+
 .credentials {
   display: flex;
   justify-content: center;
@@ -114,6 +115,7 @@
     gap: 4rem;
   }
 }
+
 .clients {
   margin: 0 1rem;
 }
@@ -122,20 +124,26 @@
   display: block;
   color: #393d3f;
   text-decoration: none;
+  img {
+    transition: filter 120ms ease-in-out, transform 120ms ease-in-out;
+  }
 }
 
 .writing-portflio {
   .article {
     margin-bottom: 2rem;
-  }
+    transition: transform 80ms ease-in-out;
 
-  .article-title {
-    font-size: 18px;
+    .article-title {
+      font-size: 18px;
+    }
   }
 
   .article:hover {
-    .article-title {
-      text-decoration: underline;
+    transform: scale(101.5%);
+    img {
+      filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2)) saturate(110%)
+        contrast(110%);
     }
   }
 }
@@ -143,19 +151,13 @@
 .editing-portflio {
   .article {
     margin-bottom: 3rem;
-
-    img {
-      transition: transform 150ms ease-in-out;
-    }
   }
 
   .article:hover {
     img {
-      transform: scale(103%);
+      transform: scale(101%);
+      filter: saturate(103%) contrast(105%);
     }
-    /* .article-title {
-      text-decoration: underline;
-    } */
   }
 }
 
@@ -177,7 +179,7 @@
     }
 
     button {
-      color: #393d3f4f;;
+      color: #393d3f4f;
       background-color: white;
       border: 2px solid #393d3f38;
       border-radius: 4px;
@@ -195,13 +197,4 @@
       background-color: #222526;
     }
   }
-
-  /* .footer__email-copy {
-    display: inline-block;
-  } */
-
-  /* Button {
-    background-color: #393d3f;
-    color: white;
-  } */
 }

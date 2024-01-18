@@ -26,6 +26,9 @@ function Footer() {
               navigator.clipboard.writeText("stephanbarry@gmail.com");
               setCopied(true);
             }}
+            onPointerLeave={() => {
+              setTimeout(() => setCopied(false), 1500);
+            }}
           >
             <div className="footer__email-copy">
               <FontAwesomeIcon icon={copied ? faCheck : faCopy} size="md" />
