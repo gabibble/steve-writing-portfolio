@@ -39,27 +39,27 @@ export default EditingPortfolio;
 function getArticles() {
   const articles = [
     {
-      title: "Conscious language guide",
+      title: "Conscious Language Guide",
       image: editing1,
       link: "https://transform.healthline.com/language?utm_source=corp&utm_medium=corp&utm_campaign=corp",
     },
     {
-      title: "Type 2 diabetes feature story",
+      title: "Type 2 Diabetes Feature Story",
       image: editing2,
       link: "https://www.healthline.com/health/type-2-diabetes",
     },
     {
-      title: "COVID-19 pandemic daily news updates",
+      title: "COVID-19 Pandemic Daily News Updates",
       image: editing3,
       link: "https://www.healthline.com/health-news/covid-19-updates",
     },
     {
-      title: "Eplontersen research papers",
+      title: "Eplontersen Research Papers",
       image: editing4,
       link: "https://jamanetwork.com/journals/jama/article-abstract/2810248",
     },
     {
-      title: "Eplontersen conference poster",
+      title: "Eplontersen Conference Poster",
       image: editing5,
       link: "https://ir.ionispharma.com/static-files/650ca891-ddb2-4f9d-9588-27ce015a96f2",
     },
