@@ -4,6 +4,8 @@ import editing2 from "../images/editing-2-v2.jpg";
 import editing3 from "../images/editing-3-v2.jpg";
 import editing4 from "../images/editing-4-v2.jpg";
 import editing5 from "../images/editing-5-v2.jpg";
+import "../styles/editing.css";
+
 
 function EditingPortfolio() {
   const articles = getArticles();

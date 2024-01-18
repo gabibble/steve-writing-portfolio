@@ -3,10 +3,10 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
-
 import bels from "../images/bels.jpg";
 import amwa from "../images/amwa.jpg";
 import aces from "../images/aces.png";
+import "../styles/credentials.css";
 
 function Credentials() {
   return (

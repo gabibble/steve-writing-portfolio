@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "../styles/footer.css";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";

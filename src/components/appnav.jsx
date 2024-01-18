@@ -5,6 +5,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
+import "../styles/appnav.css";
+
 export default function AppNav() {
   const [expanded, setExpanded] = useState(false);
 

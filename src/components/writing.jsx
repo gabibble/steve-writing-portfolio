@@ -1,6 +1,7 @@
-// import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
+import "../styles/writing.css";
 
 import { PrismicImage, useSinglePrismicDocument } from "@prismicio/react";
 

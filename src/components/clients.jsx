@@ -2,6 +2,8 @@ import Image from "react-bootstrap/Image";
 
 import logos from "../images/logos.png";
 import mobileLogos from "../images/logos-mobile.png";
+import "../styles/clients.css";
+
 
 function Clients() {
   return (

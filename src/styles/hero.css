@@ -1,0 +1,42 @@
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 1.5rem;
+}
+
+hero h1 {
+  font-size: 58px;
+}
+
+hero .hero__image img {
+  padding: 0 0 1rem 1rem;
+}
+
+/* Desktop and more */
+@media (min-width: 993px) {
+  .hero__text {
+    padding-right: 5rem;
+  }
+}
+
+/* Small tablet and less */
+@media (max-width: 767px) {
+  .hero {
+    padding-bottom: 1rem;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero__text {
+    font-size: 14px;
+  }
+}
+
+/* phone and less */
+@media (max-width: 575px) {
+  .hero {
+    padding: 2.5rem 0 1rem;
+  }
+  .hero__image img {
+    padding: 2rem 1.5rem 3rem;
+  }
+}

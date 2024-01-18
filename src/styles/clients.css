@@ -1,0 +1,21 @@
+.clients {
+  margin: 0 1rem;
+}
+
+.clients__logos--mobile {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .clients {
+    margin: 0;
+  }
+
+  .clients__logos {
+    display: none;
+  }
+
+  .clients__logos--mobile {
+    display: block;
+  }
+}

@@ -1,13 +1,14 @@
-// import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
-import hero from "../images/hero.png";
-import Credentials from "./credentials";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import hero from "../images/hero.png";
+import Credentials from "./credentials";
+import "../styles/hero.css";
 
 function Hero() {
   return (
