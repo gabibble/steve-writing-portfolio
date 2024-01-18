@@ -3,8 +3,13 @@
   color: #393d3f;
 }
 
-.navbar {
-  background-color: white !important;
+.navbar-link,
+.navbar-link.active {
+  color: #393d3f !important;
+}
+
+.navbar-link:hover {
+  color: #393d3fbd !important;
 }
 
 .container {

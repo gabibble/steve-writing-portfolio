@@ -19,7 +19,7 @@ export default function AppNav() {
         <Navbar.Brand
           href="#"
           onClick={() => setExpanded(false)}
-          style={{ color: "#393d3f" }}
+          className="navbar-link"
         >
           Steve Barry
         </Navbar.Brand>
@@ -33,21 +33,21 @@ export default function AppNav() {
             <Nav.Link
               href="#writing"
               onClick={() => setExpanded(false)}
-              style={{ color: "#393d3f" }}
+              className="navbar-link"
             >
               Writing
             </Nav.Link>
             <Nav.Link
               href="#editing"
               onClick={() => setExpanded(false)}
-              style={{ color: "#393d3f" }}
+              className="navbar-link"
             >
               Editing
             </Nav.Link>
             <Nav.Link
               href="#contact"
               onClick={() => setExpanded(false)}
-              style={{ color: "#393d3f" }}
+              className="navbar-link"
             >
               Contact
             </Nav.Link>
