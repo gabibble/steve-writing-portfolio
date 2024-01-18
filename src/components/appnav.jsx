@@ -1,20 +1,56 @@
 import React from "react";
+import { useState } from "react";
+
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import NavDropdown from "react-bootstrap/NavDropdown";
 
 export default function AppNav() {
+  const [expanded, setExpanded] = useState(false);
+
   return (
-    <Navbar expand="sm" className="bg-body-tertiary" bg="light" fixed="top">
+    <Navbar
+      expand="sm"
+      className="bg-body-tertiary"
+      fixed="top"
+      expanded={expanded}
+    >
       <Container>
-        <Navbar.Brand href="/">Steve Barry</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Brand
+          href="#"
+          onClick={() => setExpanded(false)}
+          style={{ color: "#393d3f" }}
+        >
+          Steve Barry
+        </Navbar.Brand>
+        <Navbar.Toggle
+          style={{ border: "none", paddingRight: 0 }}
+          aria-controls="basic-navbar-nav"
+          onClick={() => setExpanded(expanded ? false : "expanded")}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#writing">Writing</Nav.Link>
-            <Nav.Link href="#editing">Editing</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link
+              href="#writing"
+              onClick={() => setExpanded(false)}
+              style={{ color: "#393d3f" }}
+            >
+              Writing
+            </Nav.Link>
+            <Nav.Link
+              href="#editing"
+              onClick={() => setExpanded(false)}
+              style={{ color: "#393d3f" }}
+            >
+              Editing
+            </Nav.Link>
+            <Nav.Link
+              href="#contact"
+              onClick={() => setExpanded(false)}
+              style={{ color: "#393d3f" }}
+            >
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
