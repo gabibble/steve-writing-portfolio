@@ -5,9 +5,10 @@
 
 .writing-portflio h4 {
   font-weight: 700;
+  font-family: "Lora", serif;
 }
 
-.writing-portflio .article-title {
+.writing-portflio .article__title {
   font-size: 18px;
 }
 

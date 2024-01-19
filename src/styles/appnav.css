@@ -6,3 +6,8 @@
 .navbar-link:hover {
   color: #393d3fbd !important;
 }
+
+.navbar-brand {
+  font-family: "Lora", serif;
+  padding-top: 1.5px;
+}

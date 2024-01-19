@@ -3,11 +3,12 @@
   padding-bottom: 1.5rem;
 }
 
-hero h1 {
+.hero h1 {
   font-size: 58px;
+  font-family: "Lora", serif;
 }
 
-hero .hero__image img {
+.hero__image img {
   padding: 0 0 1rem 1rem;
 }
 
