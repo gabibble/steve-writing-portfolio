@@ -30,6 +30,7 @@ function Hero() {
             <a
               className="contact-icon"
               href="https://www.linkedin.com/in/stevebarryeditor/"
+              aria-label="Steve Barry on LinkedIn"
               target="_blank"
               rel="noreferrer"
             >
@@ -38,6 +39,7 @@ function Hero() {
             <a
               className="contact-icon"
               href="mailto:stephanbarry@gmail.com"
+              aria-label="Email Steve Barry"
               target="_blank"
               rel="noreferrer"
             >
@@ -46,7 +48,7 @@ function Hero() {
           </div>
         </Col>
         <Col className="hero__image" sm="5" lg="4">
-          <Image src={hero} fluid />
+          <Image src={hero} alt="Headshot of Steve Barry" fluid />
         </Col>
       </Row>
       <Credentials />

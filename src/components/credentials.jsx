@@ -14,7 +14,7 @@ function Credentials() {
     <Row className="credentials mt-3">
       <Col className="credentials__col" sm="4">
         <div className="credentials__image">
-          <Image src={bels} fluid />
+          <Image src={bels} alt="BELS logo" fluid />
         </div>
         <p className="credentials__text">
           Board-Certified Editor in the Life Sciences (ELS)
@@ -22,7 +22,7 @@ function Credentials() {
       </Col>
       <Col className="credentials__col" sm="4">
         <div className="credentials__image">
-          <Image src={amwa} fluid />
+          <Image src={amwa} alt="AMWA logo" fluid />
         </div>
         <p className="credentials__text">
           American Medical Writers Association Essential Skills Certificate
@@ -30,7 +30,7 @@ function Credentials() {
       </Col>
       <Col className="credentials__col" sm="4">
         <div className="credentials__image">
-          <Image src={aces} fluid />
+          <Image src={aces} alt="ACES logo" fluid />
         </div>
         <p className="credentials__text">Poynter ACES Certificate in Editing</p>
       </Col>

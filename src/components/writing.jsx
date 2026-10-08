@@ -41,6 +41,7 @@ function WritingPortfolio() {
                   >
                     <PrismicImage
                       field={article.image}
+                      alt=""
                       imgixParams={{ ar: "7:5", fit: "crop" }}
                       style={{ width: "100%" }}
                     />

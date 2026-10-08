@@ -42,6 +42,7 @@ function Footer() {
           <a
             className="contact-icon"
             href="https://www.linkedin.com/in/stevebarryeditor/"
+            aria-label="Steve Barry on LinkedIn"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,6 +51,7 @@ function Footer() {
           <a
             className="contact-icon"
             href="mailto:stephanbarry@gmail.com"
+            aria-label="Email Steve Barry"
             target="_blank"
             rel="noreferrer"
           >
@@ -58,6 +60,7 @@ function Footer() {
           <a
             className="contact-icon"
             href="https://mail.google.com/mail/?view=cm&source=mailto&to=stephanbarry@gmail.com"
+            aria-label="Email Steve Barry with Gmail"
             target="_blank"
             rel="noreferrer"
           >

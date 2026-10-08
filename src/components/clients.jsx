@@ -13,8 +13,8 @@ function Clients() {
       </h2>
       <hr className="sub-heading-divider"></hr>
       <div className="section clients">
-        <Image className="clients__logos" src={logos} fluid />
-        <Image className="clients__logos--mobile" src={mobileLogos} fluid />
+        <Image className="clients__logos" src={logos} alt="Client logos: Healthline, Medical News Today, Psych Central, Sutter Health, UCSF, PLOS, TransPerfect, Mt. Sobek, Abbott, Bristol Myers Squibb, Pfizer, ResMed, Ampere, Axero, Citrix, Shutterfly" fluid />
+        <Image className="clients__logos--mobile" src={mobileLogos} alt="Client logos: Healthline, Medical News Today, Psych Central, Sutter Health, UCSF, PLOS, TransPerfect, Mt. Sobek, Abbott, Bristol Myers Squibb, Pfizer, ResMed, Ampere, Axero, Citrix, Shutterfly" fluid />
       </div>
     </>
   );
