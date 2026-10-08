@@ -42,7 +42,11 @@ function WritingPortfolio() {
                     <PrismicImage
                       field={article.image}
                       alt=""
-                      imgixParams={{ ar: "7:5", fit: "crop" }}
+                      // Drop the fixed 1500px height from Prismic so srcset widths apply
+                      imgixParams={{ ar: "7:5", fit: "crop", h: undefined, q: 75, auto: "format" }}
+                      widths={[400, 640, 960, 1280]}
+                      sizes="(min-width: 768px) 33vw, (min-width: 576px) 50vw, 100vw"
+                      loading="lazy"
                       style={{ width: "100%" }}
                     />
                     <h5 className="mt-2 article__title">

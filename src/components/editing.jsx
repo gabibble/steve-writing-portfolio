@@ -27,7 +27,7 @@ function EditingPortfolio() {
           >
             <h3 className="article-title mb-3">{article.title}</h3>
             <div className="">
-              <Image src={article.image} alt="" fluid />
+              <Image src={article.image} alt="" loading="lazy" fluid />
             </div>
           </a>
         ))}
