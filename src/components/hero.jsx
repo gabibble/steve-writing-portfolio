@@ -17,14 +17,18 @@ function Hero() {
         <Col className="hero__text" sm="7" lg="8">
           <h1>Steve Barry</h1>
           <p>
-            Steve is a writer and editor based in Portland, Oregon. He
-            has over 10 years of writing and editing experience.
+            Steve is a writer and editor based in Portland, Oregon. He has
+            over 15 years of experience in medical communications across
+            pharmaceutical marketing, digital media, and scientific
+            publications.
           </p>
           <p>
-            Steve has worked as a freelance contributor, copy editor, and
-            medical editor for pharmaceutical marketing agencies and publications covering health, wellness, science,
-            and technology. His articles have been featured in several leading
-            lifestyle brands and scientific journals.
+            Steve has worked as a medical editor, copy editor, copywriter, and
+            freelance contributor for pharmaceutical marketing agencies and
+            publications covering health, wellness, science, and technology.
+            His work has been featured in leading scientific journals and
+            health and wellness brands such as Healthline, Psych Central, and
+            Medical News Today.
           </p>
           <div className="contact">
             <a
